@@ -1,0 +1,112 @@
+@font-face {
+    font-family: 'passion';
+    src: url("PassionOne-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'sriracha';
+    src: url("Sriracha-Regular.ttf");
+}
+
+div {
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    width: 400px;
+    margin: auto;
+    border: 1px black solid;
+
+}
+
+
+h1 {
+    font-size: 26px;
+    font-family: passion;
+    color: white;
+    margin: auto;
+    padding-top: 22px;
+}
+h2 {
+    font-size: 16px;
+    font-family: passion;
+    color: white;
+    margin-top: 4px;
+}
+p {
+    font-family: sriracha;
+}
+
+div#cabecalho {
+    background-color: black;
+    text-align: center;
+    height: 100px;
+}
+
+div#poesia {
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+
+div#image {
+    background-image: url('background001.jpg');
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.5);
+    margin: auto;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    background-attachment: fixed;
+}
+
+div#image1 {
+    background-image: url('background002.jpg');
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.5);
+    margin: auto;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    background-attachment: fixed;
+}
+
+
+div#poesia1 {
+    background-color: white;
+    height: 530px;
+    display: flex;
+    align-items: center;
+
+}
+
+
+
+div#rodape {
+    text-align: center;
+    font-size: 14px;
+    background-color: black;
+    height: 25px;
+    color: white;
+}
+
+p#pPoesia {
+    color: black;
+    margin: 0px;
+    margin-left: 10px;
+
+}
+
+p#pPoesia2 {
+    color: white;
+    background-color: rgba(0, 0, 0,.5);
+    width: 200px;
+    margin-left: 10px;
+    text-shadow: 1px 1px 0px black;
+}
+
+a {
+    text-decoration: none;
+}
